@@ -533,3 +533,20 @@ form {
 .inline-icon { width: 24px; height: 24px; background-size: 24px; display: inline-block; }
 a.twitter { background-image: url("../img/twitter.png") }
 a.github { background-image: url("../img/github.png") }
+
+.half {
+    max-width: 50%;
+    display: block;
+    float: left;
+    vertical-align: middle;
+}
+.half.right {
+    padding-left: 30px;
+}
+.wrapper {
+    overflow: auto;
+    clear: both;
+    padding: 40px 0 20px 0;
+}
+.blurb h2 {line-height: 1.2; padding-bottom: 16px; font-size: 27px; font-weight: normal;}
+.features.half h3 {float: none; clear: none;}
